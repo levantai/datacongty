@@ -1,0 +1,289 @@
+*{margin:0;padding:0; }
+ 
+ nav.navbar.navbar-default {
+    background: #2c3e50;
+    height: 111px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 0px;
+    transition: all 0.4s;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+    padding: 23px 15px;
+    font-size: 14px;
+    color: white;
+    font-weight: 700;
+    margin-top: 28px;
+    height: 0px;
+    line-height: 0;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    padding-top: 38px;
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #18bc9c;
+}
+
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+    color: #18bc9c;
+}
+
+.nenxanh {
+    height: 717px;
+    background: #18bc9c;
+    padding-top: 183px;
+}
+
+.nenxanh h1 {
+    font-size: 67px;
+    color: white;
+    font-weight: 700;
+}
+ 
+ .ngoisao {
+    margin: auto;
+    width: 25%;
+    margin: auto;
+    border-top: 4px solid white;
+    margin-top: 39px;
+}
+
+.ngoisao i {
+    width: 60px;
+    height: 40px;
+    background: #18bc9c;
+    font-size: 34px;
+    position: relative;
+    line-height: 40px;
+    top: -27px;
+    color: white;
+}
+
+.nenxanh p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.portfolio h1, .contactme h1 {
+    padding-top: 70px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #1d83c1;
+}
+
+.portfolio .ngoisao, .contactme .ngoisao {
+    border-top: 4px solid #1d83c1;
+}
+
+.portfolio .ngoisao i.fas.fa-star, .contactme .ngoisao i.fas.fa-star {
+    background: white;
+    color: #1d83c1;
+}
+
+.sanpham {
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.phongto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: #18bc9c;
+    line-height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.phongto i.fas.fa-search-plus {
+    font-size: 33px;
+    color: white;
+    padding-top: 120px;
+}
+
+.sanpham:hover .phongto {
+    opacity: 1;
+}
+
+.about {
+    background: #18bc9c;
+    color: white;
+    margin-top: 100px;
+    padding-top: 111px;
+    padding-bottom: 75px;
+}
+
+.about h1 {
+    text-transform: uppercase;
+    font-size: 49px;
+    font-weight: 700;
+}
+
+a.btn.btn-default.nutdownload {
+    background: none;
+    font-size: 19px;
+    border: 2px solid white;
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-weight: 400;
+}
+
+a.btn.btn-default.nutdownload:hover {
+    background: white;
+}
+
+input.form-control {
+    border: 0px solid;
+    box-shadow: 0 0 0 transparent;
+    border-bottom: 1px solid #E6E4E4;
+    padding: 30px 5px;
+    display: block;
+    COLOR: #acb6c0;
+    font-size: 20px;
+}
+
+.contactme textarea {
+    font-size: 20px;
+    color: #acb6c0;
+    padding: 10px 5px;
+    border: none;
+    width: 100%;
+    height: 200px;
+    border-bottom: 1px solid #acb6c0;
+}
+
+button.btn.btn-primary {
+    padding: 16px 20px;
+    font-size: 22px;
+    background: #18bc9c;
+    border: #0e6f5c;
+    margin-top: 20px;
+}
+
+button.btn.btn-primary:hover {
+    background: #199a80;
+}
+
+.form-group {
+    border-top: 1px solid #eee;
+    margin-bottom: 0px;
+}
+
+.foot1 {
+    background: #2c3e50;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.foot h3 {
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 28px;
+}
+
+.foot p {
+    font-weight: 500;
+    font-size: 21px;
+
+}
+
+
+
+.foot {
+    margin-top: 100px;
+}
+
+.foot li {
+    list-style: none;
+    float: none;
+    display: inline;
+}
+
+.foot li a {
+    color: white;
+    padding: 14px 14px;
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    font-size: 19px;
+    margin: 0px 4px;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+
+.foot li a:hover {
+    background: white;
+    color: #18bc9c;
+}
+
+.foot1 a {
+    color: #18bc9c;
+}
+
+.foot2 {
+    background: #233140;
+    color: white;
+    padding: 12px 0px;
+}
+
+.foot2 p {
+    font-size: 15px;
+    font-weight: 500;
+    padding: 4px 0px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background: black;
+    color: white;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.tienhoa {
+    height: 65px;
+}
+
+ul.nav.navbar-nav.navbar-right {
+    transition: all 0.8s;
+ 
+}
+
+.tienhoa ul.nav.navbar-nav.navbar-right {
+    margin-top: -17px;
+}
+
+.navbar-header {
+    transition: all 0.4s;
+}
+
+.tienhoa .navbar-header {
+    margin-top: -14px;
+}
+
+.portfolio {
+    transition: all 0.4s;
+    transform: translateY(-500px);
+  	opacity: 0;
+}
+
+.portfolio.bienra  {
+    transform: translateX(0px);
+    opacity: 1;
+}
