@@ -1,0 +1,256 @@
+*{margin:0;padding:0; }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.top1 {
+    width: 100%;
+    height: 900px;
+    background: url(images/bg.jpg);
+    background-size: cover;
+}
+
+.top1 h1 {
+    padding-top: 22%;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.top1 p {
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.top1 a.btn.btn-default {
+    border: none;
+    background: gray;
+    color: white;
+    border-radius: 0px;
+    font-size: 18px;
+    padding: 10px 16px;
+}
+
+.top4 {
+    width: 100%;
+    height: 583px;
+    color: white;
+    background: url(images/callout.jpg);
+    padding: 227px 0px 0px;
+    background-size: cover;
+}
+
+.top4 h2 {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+.top1 a.btn.btn-default:hover {
+    background: #80808099;
+}
+
+.top2 h2 {
+    font-weight: 500;
+    line-height: 1.1;
+}
+
+.top2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.top2 p {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.top3 {
+    padding: 50px 0;
+    background: #337ab7;
+    color: white;
+}
+
+.top3 h2 {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+hr.vienduoi {
+    width: 10%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.iconto .fas {
+    background: white;
+    color: #2684d6;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 37px;
+}
+
+.iconto h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.iconto p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.iconto .nuttrang {
+    border-radius: 0px;
+    color: black;
+    background: white;
+    line-height: 1.5;
+}
+
+.top5 h2 {
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 65px;
+    margin-bottom: 16px;
+}
+
+.top5 img.img-responsive {
+    margin-bottom: 20px;
+}
+
+.top5 img.img-responsive:hover {
+    opacity: 0.8px;
+}
+
+a.btn.btn-default.viewmoreitems {
+    border-radius: 0px;
+    background: #00000061;
+    color: white;
+    line-height: 2;
+    margin-bottom: 10px;
+    border: 0px;
+}
+
+a.btn.btn-default.viewmoreitems:hover {
+    background: black;
+    color:white;
+}
+
+.top6.xanh {
+    background-color: #337ab7;
+    color: white;
+    margin-top: 25px;
+    pading: 50px 0px;
+    padding: 50px 0px;
+}
+
+a.btn.btn-default.nut1 {
+    width: 93px;
+    height: 42px;
+    line-height: 29px;
+    font-size: 17px;
+    border: none;
+    border-radius: 0px;
+    background-color: white;
+    margin-top: 9px;
+}
+
+
+a.btn.btn-default.nut1:hover {
+    background-color: #efe7e7;
+}
+
+a.btn.btn-default.nut2 {
+    width: 113px;
+    height: 42px;
+    line-height: 29px;
+    font-size: 17px;
+    border: none;
+    border-radius: 0px;
+    background-color: #739cce;
+    margin-top: 9px;
+    color: white;
+    margin-left: 26px;
+}
+
+a.btn.btn-default.nut2:hover {
+    background-color: black;
+    color: white;
+}
+
+.footer h4 {
+    font-weight: 700;
+    padding-top: 101px;
+}
+
+.xahoi a.fab.fa-facebook-f.fa-3x {
+    padding-top: 25px;
+    padding-right: 25px;
+}
+
+.footer a.fab.fa-twitter.fa-3x {
+    pdding-right: 25px;
+    padding-right: 25px;
+}
+
+.footer .xahoi.text-center {
+    padding-bottom: 26px;
+}
+
+body {
+    padding-bottom: 78px;
+}
+
+hr.vienduoi1 {
+    width: 10%;
+    margin-left: 522px;
+    background: #dac9c9;
+    padding-top: 2px;
+    border: none;
+}
+
+.nutmenu a.fas.fa-align-justify {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    background: #12121254;
+    padding: 12px 16px;
+    margin-top: 10px;
+    margin-right: 19px;
+    color: white;
+    font-size: 27px;
+}
+
+.menuphai {
+    color: white;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: black;
+    height: 400px;
+    width: 17%;
+    z-index: 3;
+    transition: all 0.4s;
+    right: -17%;
+}
+
+.menudoc a {
+    color: white;
+    padding: 10px 13px;
+    display: block;
+    font-size: 12px;
+    border-bottom: 1px solid gray;
+}
+
+.menuphai h2 {padding-left: 10px;}
+
+ul.menudoc {
+    list-style: none;
+}
+
+.menuphai.ra {
+    right: 0px;
+}

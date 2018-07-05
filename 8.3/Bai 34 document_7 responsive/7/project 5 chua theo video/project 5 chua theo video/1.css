@@ -1,0 +1,184 @@
+*{margin:0;padding:0; }
+
+.menuphai.ra {
+    right: 0px;
+}
+
+.menudoc a {
+    color: white;
+    padding: 10px 13px;
+    display: block;
+    border-bottom: 1px solid gray;
+    font-size: 12px;
+}
+
+ul.menudoc {
+    list-style: none;
+}
+
+.menuphai {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    background: black;
+    height: 900px;
+    width: 248px;
+    z-index: 3;
+    color: white;
+    transition: all 0.4s;
+    right: -300px;
+}
+
+.nutmenu a.fa.fa-bars {
+    color: white;
+    font-size: 19px;
+}
+
+.nutmenu {
+    position: fixed;
+    top: 6px;
+    right: 14px;
+    padding: 10px 15px;
+    background: rgba(0, 0, 0, 0.54);
+}
+
+.footer {
+    padding: 35px;
+    font-size: 9px;
+}
+
+.top6 a.nut1.btn.btn-default {
+    background: white;
+    color: black;
+}
+
+a.nut2.btn.btn-default,a.nut1.btn.btn-default {
+    border-radius: 0px;
+    color: white;
+    background: black;
+    margin-left: 21px;
+    border: none;
+}
+
+a.btn.btn-default.viewmoreitem {
+    border-radius: 0px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.top4 h2 {
+    font-size: 39px;
+}
+
+.top4.anhnen {
+    background: url(images/callout.jpg);
+    height: 202px;
+    padding: 62px 0;
+    background-size: cover;
+    color: white;
+}
+
+a.btn.btn-default.nuttrang {
+    border-radius: 0px;
+    font-size: 12px;
+}
+
+._4cot p {
+    font-size: 13px;
+}
+
+._4cot h3 {
+    font-size: 18px;
+}
+
+.iconto .fa {
+    background: white;
+    color: rgb(51, 122, 183);
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    font-size: 37px;
+}
+
+hr.vienduoi {
+    width: 8%;
+    margin: auto;
+    margin-bottom: 21px;
+}
+
+.top3 h2 {
+    font-size: 26px;
+    padding-top: 33px;
+}
+
+.top3 {
+    background: #337ab7;
+    color: white;
+    padding-bottom: 34px;
+}
+
+.top2 {
+    padding: 29px 0;
+}
+
+.top2 p {
+    font-size: 14px;
+}
+
+.top2 h2 {
+    font-size: 21px;
+}
+
+.top1 a.btn.btn-default {
+    border: none;
+    border-radius: 0px;
+    background: rgba(0, 0, 0, 0.46);
+    color: white;
+    font-size: 12px;
+}
+
+.top1 a.btn.btn-default:hover {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.top1 p {
+    font-size: 12px;
+}
+
+.top1 h1 {
+    font-size: 32px;
+    padding-top: 30%;
+}
+
+.top1 {
+    width: 100%;
+    height: 900px;
+    background: url(images/bg.jpg);
+    background-size: cover;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.top6.xanh {
+    background: #337AB7;
+    padding: 46px 0;
+    color: white;
+}
+
+.top6 h2 {
+    font-size: 19px;
+}
+
+.top5 img.img-responsive {
+    margin-bottom: 22px;
+}
+
+.top5 img.img-responsive:hover {
+    opacity: 0.8;
+}
+ 
+
+ 
